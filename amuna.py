@@ -3,12 +3,10 @@ import requests
 from datetime import datetime, timedelta
 
 # YouTube API Key
-API_KEY = AIzaSyCOEj9AKOJwq0diLER5yxAMGDS97PxuFAQ
+
 YOUTUBE_SEARCH_URL = "https://www.googleapis.com/youtube/v3/search"
 YOUTUBE_VIDEO_URL = "https://www.googleapis.com/youtube/v3/videos"
-YOUTUBE_CHANNEL_URL = "https://www.googleapis.com/youtube/v3/channels"
-
-# Streamlit App Title
+YOUTUBE_CHANNEL_URL = "https://www.googleapis.com/youtube/v3/channels"# Streamlit App Title
 st.title("YouTube Viral Topics Tool")
 
 # Input Fields
